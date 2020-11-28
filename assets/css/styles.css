@@ -1,0 +1,151 @@
+body {
+  background: rgb(234,230,235);
+  margin-top: 86px;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  margin-top: 0px;
+  border-bottom: 6px solid #96ab69;
+  background: #ffffff;
+}
+
+.navbar-light .navbar-brand {
+  color: #839658;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 30px;
+}
+
+.navbar-light .navbar-brand {
+}
+
+.navbar-light .navbar-brand {
+}
+
+.navbar-light .navbar-brand {
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'El Messiri';
+  font-size: 30px;
+}
+
+.navbar.navbar-light.navbar-expand-lg.fixed-top.text-right {
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-color: #96ab69;
+  margin-top: -17px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(0,0,0,.7);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu1 {
+  display: inline;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-bottom: 16px;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  padding: 10px;
+  background-color: #d6d4d4;
+  border-radius: 8px;
+  position: relative;
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  left: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  color: #fff;
+  opacity: 0;
+}
+
+.cart-button {
+  height: 48px;
+}
+
+.cart-button:focus {
+  box-shadow: none;
+}
+
+.cart {
+  position: relative;
+  height: 48px !important;
+  width: 50px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 11px;
+  border-radius: 5px;
+  font-size: 21px;
+}
+
+.cart-button.clicked span.dot {
+  animation: item 0.3s ease-in forwards;
+}
+
+@keyframes item {
+  0% {
+    opacity: 1;
+    top: 30%;
+    left: 30%;
+  }
+  25% {
+    opacity: 1;
+    left: 26%;
+    top: 0%;
+  }
+  50% {
+    opacity: 1;
+    left: 23%;
+    top: -22%;
+  }
+  75% {
+    opacity: 1;
+    left: 19%;
+    top: -18%;
+  }
+  100% {
+    opacity: 1;
+    left: 14%;
+    top: 28%;
+  }
+}
+
+button, input {
+  float: right;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  float: right;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  float: right;
+}
+
+.img-fluid {
+  /*max-width: inherit;*/
+  /*max-height: inherit;*/
+}
+
